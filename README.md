@@ -1,5 +1,7 @@
 # recorder-ingest
 
+**[English](README.en.md)** | 中文
+
 索尼 IC 录音笔自动入库工具：插上录音笔，新录音会**自动复制到 Obsidian 知识库、本地转写成文字稿，然后清空录音笔**。
 
 全程在本机运行，不联网、不调用云端 API、**零 token 消耗**。
@@ -27,7 +29,7 @@
 ## 安装（macOS + Apple Silicon）
 
 ```bash
-git clone <本仓库地址> && cd recorder-ingest
+git clone https://github.com/wuxiumu/recorder-ingest.git && cd recorder-ingest
 ./setup.sh
 ```
 
